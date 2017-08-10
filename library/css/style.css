@@ -1612,7 +1612,7 @@ HEADER STYLES
 *********************/
 /* line 155, ../scss/breakpoints/_base.scss */
 .header {
-  background-color: #0F292A;
+  background-color: #0F3E3F;
 }
 
 /* line 159, ../scss/breakpoints/_base.scss */
@@ -2186,24 +2186,43 @@ tweeners.
   /*********************
   NAVIGATION STYLES
   *********************/
+  /* line 29, ../scss/breakpoints/_481up.scss */
+  #inner-header {
+    width: 100%;
+  }
+
+  /* line 32, ../scss/breakpoints/_481up.scss */
+  #logo {
+    display: none;
+  }
+
+  /* line 36, ../scss/breakpoints/_481up.scss */
+  .nav li {
+    width: 19.7%;
+    background-color: pink;
+    margin: 0 .3% 0 0;
+    background-color: #0F292A;
+    text-align: center;
+  }
+
   /* .menu is clearfixed inside mixins.scss */
-  /* line 33, ../scss/breakpoints/_481up.scss */
+  /* line 46, ../scss/breakpoints/_481up.scss */
   .menu {
     /* end .menu ul */
   }
-  /* line 34, ../scss/breakpoints/_481up.scss */
+  /* line 47, ../scss/breakpoints/_481up.scss */
   .menu ul {
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 35, ../scss/breakpoints/_481up.scss */
+  /* line 48, ../scss/breakpoints/_481up.scss */
   .menu ul li {
     /*
     plan your menus and drop-downs wisely.
     */
   }
-  /* line 36, ../scss/breakpoints/_481up.scss */
+  /* line 50, ../scss/breakpoints/_481up.scss */
   .menu ul li a {
     /*
     you can use hover styles here even though this size
@@ -2216,23 +2235,23 @@ tweeners.
   POSTS & CONTENT STYLES
   *********************/
   /* entry content */
-  /* line 81, ../scss/breakpoints/_481up.scss */
+  /* line 97, ../scss/breakpoints/_481up.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 85, ../scss/breakpoints/_481up.scss */
+  /* line 101, ../scss/breakpoints/_481up.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 90, ../scss/breakpoints/_481up.scss */
+  /* line 106, ../scss/breakpoints/_481up.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 95, ../scss/breakpoints/_481up.scss */
+  /* line 111, ../scss/breakpoints/_481up.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
