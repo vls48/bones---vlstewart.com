@@ -23,6 +23,7 @@ body {
 	background-color: $bg-green;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
+  	background-image: url(../images/trace.svg);
 }
 
 /********************
@@ -863,7 +864,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
+	//background-color: $black;
 	color: $light-gray;
 }
 
