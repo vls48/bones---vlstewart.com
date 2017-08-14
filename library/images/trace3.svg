@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1124px" height="955px" viewBox="0 0 1124 955" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>traces</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="58.5 12.5 52.5 6 23.5 4.5 0 30 3 55 11 62 0 75 0 129 41 129 121 45.5 121 0 70 0"></polygon>
+        <filter x="-3.3%" y="-1.6%" width="106.6%" height="106.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <pattern id="pattern-3" width="24.4799995" height="24.4799995" x="-24.4799995" y="-24.4799995" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4" transform="scale(0.50999999,0.50999999)"></use>
+        </pattern>
+        <image id="image-4" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <filter x="-2.9%" y="-1.2%" width="105.8%" height="105.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="0.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.296337183 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-6" points="1013 950.5 1102 950.5 1119 937 1119 839 1073.5 839 1013 901.5"></polygon>
+        <filter x="-4.2%" y="-2.2%" width="108.5%" height="108.1%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <pattern id="pattern-8" width="24.497449" height="24.497449" x="988.502551" y="814.502551" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-9" transform="scale(0.51036352,0.51036352)"></use>
+        </pattern>
+        <image id="image-9" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <filter x="-3.8%" y="-1.8%" width="107.5%" height="107.2%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="0.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.139690897 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-11" cx="31.8914595" cy="32.8914595" r="13.8914595"></circle>
+        <filter x="-10.8%" y="-10.8%" width="121.6%" height="121.6%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-13" cx="1091.89146" cy="914.891459" r="13.8914595"></circle>
+        <filter x="-9.0%" y="-9.0%" width="118.0%" height="118.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-15" cx="31.8914595" cy="912.891459" r="13.8914595"></circle>
+        <filter x="-14.4%" y="-14.4%" width="128.8%" height="128.8%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="2" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-17" cx="1091.89146" cy="32.8914595" r="13.8914595"></circle>
+        <filter x="-10.8%" y="-10.8%" width="121.6%" height="121.6%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desk-template" transform="translate(-40.000000, -41.000000)">
+            <g id="traces" transform="translate(42.000000, 41.000000)">
+                <g opacity="0.328183302" transform="translate(0.000000, 106.000000)" stroke="#20D3A3">
+                    <g id="Group-5" transform="translate(825.000000, 189.000000)">
+                        <path d="M9.5,22.5 L9.5,40.5" id="Line-6" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M10.5,42.5 L101.5,136.5" id="Line-7" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3-Copy" stroke-width="4" fill="#0F3E3F" cx="102.347105" cy="168.347105" r="9.34710501"></circle>
+                        <path d="M102.5,139.5 L102.5,158.5" id="Line-8" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                    <g id="Group-5" transform="translate(266.000000, 612.000000)">
+                        <path d="M9.5,22.5 L9.5,40.5" id="Line-6" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M10.5,42.5 L101.5,136.5" id="Line-7" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3-Copy" stroke-width="4" fill="#0F3E3F" cx="102.347105" cy="168.347105" r="9.34710501"></circle>
+                        <path d="M102.5,139.5 L102.5,158.5" id="Line-8" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                    <g id="Group-2-Copy-13" transform="translate(1067.000000, 188.000000)">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-17" transform="translate(359.000000, 336.000000)">
+                        <path d="M9.5,207.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="219.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-3" transform="translate(554.000000, 600.260931)">
+                        <g id="Group-2-Copy-2" transform="translate(190.000000, 180.500000) rotate(90.000000) translate(-190.000000, -180.500000) translate(180.500000, -9.500000)">
+                            <path d="M9.5,357.5 L9.5,19.5" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                            <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                            <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="370.347105" r="9.34710501"></circle>
+                        </g>
+                        <g id="Group-2-Copy-5" transform="translate(459.095454, 90.003571) rotate(45.000000) translate(-459.095454, -90.003571) translate(449.595454, -27.496429)">
+                            <path d="M10.5,234.5 L10.5,19.2771286" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                            <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-2-Copy-3" transform="translate(677.500000, 695.500000) rotate(90.000000) translate(-677.500000, -695.500000) translate(668.000000, 494.000000)">
+                        <path d="M9.5,386.34763 L9.5,17.2487834" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="393.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-4" transform="translate(618.500000, 621.500000) rotate(90.000000) translate(-618.500000, -621.500000) translate(609.000000, 361.000000)">
+                        <path d="M9.5,504.34763 L9.5,15.4907948" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="511.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-2" transform="translate(73.760931, 276.760931) rotate(45.000000) translate(-73.760931, -276.760931) translate(64.260931, 193.260931)">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-15" transform="translate(669.760931, 401.760931) scale(-1, 1) rotate(45.000000) translate(-669.760931, -401.760931) translate(660.260931, 318.260931)">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-16" transform="translate(779.760931, 401.760931) scale(-1, 1) rotate(45.000000) translate(-779.760931, -401.760931) translate(770.260931, 318.260931)">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-6" transform="translate(73.760931, 376.500000) rotate(45.000000) translate(-73.760931, -376.500000) translate(64.260931, 293.000000)" fill="#0F3E3F">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-7" transform="translate(73.760931, 485.500000) rotate(45.000000) translate(-73.760931, -485.500000) translate(64.260931, 402.000000)" fill="#0F3E3F">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-11" transform="translate(896.000000, 99.500000) rotate(90.000000) translate(-896.000000, -99.500000) translate(886.500000, -90.500000)" fill="#0F3E3F">
+                        <path d="M9.5,357.5 L9.5,19.5" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="370.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-14" transform="translate(548.000000, 262.500000) rotate(90.000000) translate(-548.000000, -262.500000) translate(538.500000, 72.500000)" fill="#0F3E3F">
+                        <path d="M9.5,357.5 L9.5,19.5" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="370.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-3" transform="translate(453.500000, 85.000000) rotate(180.000000) translate(-453.500000, -85.000000) " fill="#0F3E3F">
+                        <g id="Group-2-Copy-2" transform="translate(378.000000, 160.500000) rotate(90.000000) translate(-378.000000, -160.500000) translate(368.500000, -217.500000)">
+                            <path d="M9.5,736.517434 L9.5,19.5" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                            <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                            <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="746.347105" r="9.34710501"></circle>
+                        </g>
+                        <g id="Group-2-Copy-5" transform="translate(826.256620, 80.256620) rotate(45.000000) translate(-826.256620, -80.256620) translate(816.756620, -23.743380)">
+                            <path d="M9.5,207.5 L9.5,14.8578644" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                            <circle id="Oval-3" stroke-width="4" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-2-Copy-8" transform="translate(73.760931, 592.500000) rotate(45.000000) translate(-73.760931, -592.500000) translate(64.260931, 509.000000)">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy-2" transform="translate(266.000000, 188.000000)">
+                        <path d="M9.5,357.5 L9.5,19.5" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="370.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-2-Copy" transform="translate(193.000000, 130.000000)">
+                        <path d="M9.5,638.5 L9.5,19.5" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="650.347105" r="9.34710501"></circle>
+                    </g>
+                    <g id="Group-5" transform="translate(355.000000, 146.000000) scale(1, -1) rotate(90.000000) translate(-355.000000, -146.000000) translate(299.000000, 57.000000)">
+                        <path d="M9.5,22.5 L9.5,40.5" id="Line-6" stroke-width="5" stroke-linecap="square"></path>
+                        <path d="M10.5,42.5 L101.5,136.5" id="Line-7" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3-Copy" stroke-width="4" fill="#0F3E3F" cx="102.347105" cy="168.347105" r="9.34710501"></circle>
+                        <path d="M102.5,139.5 L102.5,158.5" id="Line-8" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                    <g id="Group-2-Copy-12" transform="translate(1004.760931, 567.760931) rotate(45.000000) translate(-1004.760931, -567.760931) translate(995.260931, 484.260931)">
+                        <path d="M9.5,144.5 L9.5,11.6482323" id="Line-2" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="9.34710501" r="9.34710501"></circle>
+                        <circle id="Oval-3" stroke-width="4" fill="#0F3E3F" cx="9.34710501" cy="157.347105" r="9.34710501"></circle>
+                    </g>
+                </g>
+                <g id="corners">
+                    <g id="Path-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#A5A5A5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill-opacity="0.1" fill="url(#pattern-3)" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Path-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <use fill="#A5A5A5" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <use fill-opacity="0.1" fill="url(#pattern-8)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-6"></use>
+                        <use stroke="#979797" stroke-width="1" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="Oval-2">
+                        <use fill="#0F3E3F" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use stroke="#979797" stroke-width="2" xlink:href="#path-11"></use>
+                    </g>
+                    <g id="Oval-2-Copy-5">
+                        <use fill="#0F3E3F" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use stroke="#979797" stroke-width="1" xlink:href="#path-13"></use>
+                    </g>
+                    <g id="Oval-2-Copy">
+                        <use fill="#0F3E3F" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use stroke="#979797" stroke-width="2" xlink:href="#path-15"></use>
+                    </g>
+                    <g id="Oval-2-Copy-3">
+                        <use fill="#0F3E3F" fill-rule="evenodd" xlink:href="#path-17"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                        <use stroke="#979797" stroke-width="2" xlink:href="#path-17"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -23,7 +23,7 @@ body {
 	background-color: $bg-green;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  	background-image: url(../images/trace.svg);
+  	background-image: url(../images/trace3.svg);
 }
 
 /********************
@@ -125,6 +125,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
 	font-size: 2.5em;
 	line-height: 1.333em;
+	font-family: 'PT Sans Caption', sans-serif;
+	color: $bg-green;
 }
 
 h2, .h2 {
@@ -258,19 +260,18 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
-			border-radius: 3px;
-			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
+			//post
 
 			header {
-				border-bottom: 1px solid $light-gray;
-				padding: 1.5em;
+				border-bottom: 4px solid white;
+				background-color: white;
+				background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1) 50%, rgba(255,0,0,0) 50%, rgba(255,0,0,0));
+				margin-bottom: 25px;
+				font-family: 'PT Sans Caption', sans-serif;
 			}
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
 
 				p {
 					margin: 0;
@@ -294,7 +295,19 @@ POSTS & CONTENT STYLES
 		.archive-title {}
 
 		/* want to style individual post classes? Booya! */
-		.post-id {}         /* post by id (i.e. post-3) */
+		.post-49 {
+			section{
+
+			background-color: #232323;
+			max-width: 500px;
+			color: #979797;
+
+			border-radius: 1px;
+			margin-left: 35px;
+			margin-bottom: 1.5em;
+			border: 4px solid #1F1F1F;
+			}
+		}         /* post by id (i.e. post-3) */
 		.post {}            /* general post style */
 		.page {}            /* general article on a page style */
 		.attachment {}      /* general style on an attatchment */

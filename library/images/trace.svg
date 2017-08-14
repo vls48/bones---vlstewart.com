@@ -7,6 +7,11 @@
 	.st1{fill:none;stroke:#20D3A3;stroke-width:5;stroke-linecap:square;}
 	.st2{fill:#0F3E3F;stroke:#20D3A3;stroke-width:4;}
 	.st3{fill:none;}
+	.st0:hover {opacity:0.33;}
+	.st1:hover {fill:none;stroke:pink;stroke-width:5;stroke-linecap:square;}
+	.st2:hover {fill:#0F3E3F;stroke:pink;stroke-width:4;}
+	.st3:hover {fill:none;}
+	*{pointer-events: none;}
 </style>
 <title>Group 12</title>
 <desc>Created with Sketch.</desc>
