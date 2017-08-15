@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="497px" height="294px" viewBox="0 0 497 294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>controller</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="56" width="16" height="33"></rect>
+        <rect id="path-2" x="0" y="111" width="16" height="33"></rect>
+        <rect id="path-3" x="0" y="166" width="16" height="33"></rect>
+        <rect id="path-4" x="0" y="217" width="16" height="33"></rect>
+        <path d="M71.3739471,20.5 L403.772953,20.5" id="path-5"></path>
+        <path d="M71.3739471,273.5 L403.772953,273.5" id="path-6"></path>
+        <path d="M149.030113,273.5 L481.429119,273.5" id="path-7"></path>
+        <path d="M149.030113,20.5 L481.429119,20.5" id="path-8"></path>
+        <rect id="path-9" x="38.6314016" y="10" width="450.487805" height="275.662805"></rect>
+        <filter x="-1.7%" y="-2.7%" width="103.3%" height="105.4%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desk-homepage" transform="translate(-338.000000, -283.000000)">
+            <g id="controller" transform="translate(338.000000, 283.000000)">
+                <g id="Rectangle-3">
+                    <use fill="#232323" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#1E1E1E" stroke-width="3" x="1.5" y="57.5" width="13" height="30"></rect>
+                </g>
+                <g id="Rectangle-3-Copy">
+                    <use fill="#232323" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#1E1E1E" stroke-width="3" x="1.5" y="112.5" width="13" height="30"></rect>
+                </g>
+                <g id="Rectangle-3-Copy-2">
+                    <use fill="#232323" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#1E1E1E" stroke-width="3" x="1.5" y="167.5" width="13" height="30"></rect>
+                </g>
+                <g id="Rectangle-3-Copy-3">
+                    <use fill="#232323" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#1E1E1E" stroke-width="3" x="1.5" y="218.5" width="13" height="30"></rect>
+                </g>
+                <rect id="Rectangle-3" fill="#1F1F1F" x="32" y="0" width="464.198113" height="293.769242"></rect>
+                <g id="Line-Copy" stroke-linecap="square" stroke-dasharray="1,38" stroke="#979797">
+                    <use stroke-width="33" xlink:href="#path-5"></use>
+                    <use stroke-width="1" xlink:href="#path-5"></use>
+                </g>
+                <g id="Line-Copy-2" stroke-linecap="square" stroke-dasharray="1,38" stroke="#979797">
+                    <use stroke-width="33" xlink:href="#path-6"></use>
+                    <use stroke-width="1" xlink:href="#path-6"></use>
+                </g>
+                <g id="Line-Copy-3" stroke-linecap="square" stroke-dasharray="1,38" stroke="#979797">
+                    <use stroke-width="33" xlink:href="#path-7"></use>
+                    <use stroke-width="1" xlink:href="#path-7"></use>
+                </g>
+                <g id="Line-Copy-4" stroke-linecap="square" stroke-dasharray="1,38" stroke="#979797">
+                    <use stroke-width="33" xlink:href="#path-8"></use>
+                    <use stroke-width="1" xlink:href="#path-8"></use>
+                </g>
+                <g id="Rectangle-12">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <use fill="#232323" fill-rule="evenodd" xlink:href="#path-9"></use>
+                </g>
+                <circle id="Oval" stroke="#1B1B1B" fill="#1C1B1B" cx="67" cy="143" r="9"></circle>
+                <circle id="Oval-Copy" stroke="#1B1B1B" fill="#1C1B1B" cx="461" cy="143" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -236,24 +236,33 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+/* line 96, ../scss/breakpoints/_481up.scss */
+.d-5of7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
 /* entry content */
-/* line 97, ../scss/breakpoints/_481up.scss */
+/* line 105, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 101, ../scss/breakpoints/_481up.scss */
+/* line 109, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 106, ../scss/breakpoints/_481up.scss */
+/* line 114, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 111, ../scss/breakpoints/_481up.scss */
+/* line 119, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;

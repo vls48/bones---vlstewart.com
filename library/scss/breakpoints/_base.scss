@@ -14,6 +14,30 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
+object{
+	pointer-events: none;
+}
+
+#Oval-5{
+  animation: blink 2s infinite;
+}
+
+.hey{
+  animation: hey 2s infinite; 
+}
+
+@keyframes blink {
+   0%, 50% { fill: #EEEAEA; }
+  0%, 50% { fill: #09FF00; }
+
+}
+
+@keyframes hey{
+   0%, 50% { stroke: #EEEAEA;
+          }
+  0%, 50% { stroke: #68BA65;          
+  }
+}
 
 body {
 	font-family: $lato;
@@ -23,9 +47,25 @@ body {
 	background-color: $bg-green;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  	background-image: url(../images/trace3.svg);
+  	background-image: url(../images/trace2.svg);
+  	background-position: center;
+  	//background-repeat: no-repeat;
+  	background-size: 75%;
 }
 
+.metals{
+	position: absolute;
+	z-index: -1;
+
+}
+	.top-right{right: 20px; top: 20px;}
+	.top-left{left: 20px; top: 20px;}
+	.bottom-right{bottom: 20px; right: 20px;}
+	.bottom-left{bottom: 20px; left: 20px;}
+
+	.but-press{
+		padding: 0 10px; 
+	}
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -110,7 +150,9 @@ H1, H2, H3, H4, H5 STYLES
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
-	font-weight: 500;
+	font-family: 'PT Sans Caption', sans-serif;
+
+	font-weight: 700;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -124,9 +166,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
 	font-size: 2.5em;
-	line-height: 1.333em;
+	line-height: .9em;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: $bg-green;
+	padding-left: 6px;
 }
 
 h2, .h2 {
@@ -256,7 +299,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 1.5em;
+	margin-top: 2.5em;
 }
 
 		.hentry {
@@ -265,13 +308,14 @@ POSTS & CONTENT STYLES
 			header {
 				border-bottom: 4px solid white;
 				background-color: white;
-				background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1) 50%, rgba(255,0,0,0) 50%, rgba(255,0,0,0));
+				background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1) 75%, rgba(255,0,0,0) 75%, rgba(255,0,0,0));
 				margin-bottom: 25px;
 				font-family: 'PT Sans Caption', sans-serif;
+				width: 104%;
 			}
 
 			footer {
-				padding: 1.5em;
+				padding: 1em;
 
 				p {
 					margin: 0;
@@ -297,15 +341,18 @@ POSTS & CONTENT STYLES
 		/* want to style individual post classes? Booya! */
 		.post-49 {
 			section{
-
-			background-color: #232323;
-			max-width: 500px;
+			background-image: url(../images/controller.svg); 
+			background-repeat: no-repeat;
+			padding: 55px 90px;
+			width: 500px;
+			//background-color: #232323;
+			//max-width: 500px;
 			color: #979797;
 
-			border-radius: 1px;
-			margin-left: 35px;
-			margin-bottom: 1.5em;
-			border: 4px solid #1F1F1F;
+			//border-radius: 1px;
+			margin-left: 0;
+			//margin-bottom: 1.5em;
+			//border: 4px solid #1F1F1F;
 			}
 		}         /* post by id (i.e. post-3) */
 		.post {}            /* general post style */
