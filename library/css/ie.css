@@ -233,10 +233,56 @@ NAVIGATION STYLES
 }
 
 /* end .menu */
+/* line 90, ../scss/breakpoints/_481up.scss */
+h1, .h1 {
+  font-size: 2.5em;
+  line-height: .9em;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #0F3E3F;
+  padding-left: 6px;
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 96, ../scss/breakpoints/_481up.scss */
+/* line 106, ../scss/breakpoints/_481up.scss */
+.hentry header {
+  border-bottom: 4px solid white;
+  background-color: white;
+  background: linear-gradient(to right, white, white 75%, rgba(255, 0, 0, 0) 75%, rgba(255, 0, 0, 0));
+  margin-bottom: 25px;
+  font-family: 'PT Sans Caption', sans-serif;
+  width: 104%;
+}
+/* line 115, ../scss/breakpoints/_481up.scss */
+.hentry footer {
+  padding: 1em;
+}
+/* line 118, ../scss/breakpoints/_481up.scss */
+.hentry footer p {
+  margin: 0;
+}
+
+/* end .hentry */
+/* line 125, ../scss/breakpoints/_481up.scss */
+.single-title,
+.page-title,
+.entry-title {
+  margin: 0;
+}
+
+/* want to style individual post classes? Booya! */
+/* line 141, ../scss/breakpoints/_481up.scss */
+.post-49 section {
+  background-image: url(../images/controller.svg);
+  background-repeat: no-repeat;
+  padding: 55px 200px 55px 90px;
+  width: 620px;
+  color: #979797;
+  margin-left: 0;
+}
+
+/* line 158, ../scss/breakpoints/_481up.scss */
 .d-5of7 {
   width: 100%;
   display: flex;
@@ -245,24 +291,30 @@ POSTS & CONTENT STYLES
   margin-top: 50px;
 }
 
+/* line 166, ../scss/breakpoints/_481up.scss */
+.but-nav {
+  display: flex;
+  flex-direction: row;
+}
+
 /* entry content */
-/* line 105, ../scss/breakpoints/_481up.scss */
+/* line 172, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 109, ../scss/breakpoints/_481up.scss */
+/* line 176, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 114, ../scss/breakpoints/_481up.scss */
+/* line 181, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 119, ../scss/breakpoints/_481up.scss */
+/* line 186, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
