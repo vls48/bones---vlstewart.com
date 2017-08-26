@@ -22,7 +22,6 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -35,7 +34,6 @@ NAVIGATION STYLES
 .nav {
 		li{
 				width: 19.7%;
-				background-color: pink;
 				margin: 0 .3% 0 0;
 				background-color: $nav-green;
 				text-align: center;
@@ -88,7 +86,7 @@ NAVIGATION STYLES
 	} /* end .menu */
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	line-height: .9em;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: $bg-green;
@@ -105,11 +103,7 @@ POSTS & CONTENT STYLES
 
 			header {
 				border-bottom: 4px solid white;
-				background-color: white;
-				background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1) 75%, rgba(255,0,0,0) 75%, rgba(255,0,0,0));
-				margin-bottom: 25px;
-				font-family: 'PT Sans Caption', sans-serif;
-				width: 104%;
+				//width: 64%;
 			}
 
 			footer {
@@ -141,8 +135,8 @@ POSTS & CONTENT STYLES
 			section{
 			background-image: url(../images/controller.svg); 
 			background-repeat: no-repeat;
-			padding: 55px 200px 55px 90px;
-			width: 620px;
+			padding: 55px 130px 55px 90px;
+			//width: 620px;
 			//background-color: #232323;
 			//max-width: 500px;
 			color: #979797;
@@ -164,8 +158,13 @@ POSTS & CONTENT STYLES
 }
 
 .but-nav{
+	//width: auto;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+}
+
+.bottom-right{
+	display: inline;
 }
 
 /* entry content */

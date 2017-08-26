@@ -18,10 +18,26 @@ object{
 	pointer-events: none;
 }
 
-.but-nav{
-	width: 50%;
+.cont-all{
+	width: fit-content;
 	margin: auto;
 }
+
+.but-nav{
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+
+
+}
+
+#background-contain{
+	display: flex;
+	justify-content: center;
+}
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SVG ANIMATIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #Oval-5{
   animation: blink 2s infinite;
@@ -44,6 +60,38 @@ object{
   }
 }
 
+@keyframes bg-loop {
+  0%, 33% { stroke: #20D3A3; }
+  33%, 66% { stroke: #1E7D64; }
+  66%, 100% { stroke: #20D3A3; }
+  
+}
+
+#Group-5 {
+  animation: bg-loop 5s infinite;
+}
+
+#Group-5-1{
+  animation-delay: 1s;
+  animation: bg-loop 5s infinite;
+}
+
+#Group-2-Copy-10{
+  animation: bg-loop 2s infinite;
+  animation-delay: 2s;
+}
+
+#Group-2-Copy-7{
+  animation: bg-loop 8s infinite;
+  
+}
+
+#Group-2-Copy-14{
+  animation: bg-loop 4s infinite;
+}
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BASE STYLES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 body {
 	font-family: $lato;
 	font-size: 100%;
@@ -52,10 +100,11 @@ body {
 	background-color: $bg-green;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  	background-image: url(../images/trace2.svg);
-  	background-position: center;
+  	//background-image: url(../images/trace2.svg);
+  	//background-position: center;
   	//background-repeat: no-repeat;
-  	background-size: 75%;
+  	//background-size: 75%;
+  	//pointer-events: none;
 }
 
 .metals{
@@ -63,9 +112,9 @@ body {
 	z-index: -1;
 
 }
-	.top-right{right: 20px; top: 20px;}
+	.top-right{right: 3px; top: 20px;}
 	.top-left{left: 20px; top: 20px;}
-	.bottom-right{bottom: 20px; right: 20px;}
+	.bottom-right{bottom: 20px; right: 20px; display: none;}
 	.bottom-left{bottom: 20px; left: 20px;}
 
 	.but-press{
@@ -156,7 +205,8 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
 	font-family: 'PT Sans Caption', sans-serif;
-
+	display: inline-block;
+	background-color: white;
 	font-weight: 700;
 	/*
 	if you're going to use webfonts, be sure to check your weights
@@ -176,6 +226,7 @@ h1, .h1 {
 	color: $bg-green;
 	padding-left: 6px;
 	padding-top: 2px;
+	padding-right: 20px;
 }
 
 h2, .h2 {
@@ -205,7 +256,7 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $bg-green;
+	//background-color: $bg-green;
 }
 
 	#logo {
@@ -227,6 +278,35 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+
+.nav-buttons{
+	display: block;
+	color: $white;
+	text-decoration: none;
+	padding: 0.75em;
+	font-family: 'PT Mono', monospace;
+
+	li{
+		padding: 5px 0;
+		text-align: center;
+		max-width: 160px;
+		margin: 5px;
+		a{
+			color: white;
+			text-decoration: none;
+
+		}
+	}
+}
+
+/*.nav-buttons li a:before {
+	width: 150px;
+	height: 179px;
+	display: block;
+	content: "";
+	background-size: 100%;
+	background: url(../images/button.svg); 
+}*/
 
 .nav {
 	border-bottom: 0;
@@ -305,7 +385,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 2.5em;
+	margin-top: 6.5em;
 }
 
 		.hentry {
@@ -313,11 +393,12 @@ POSTS & CONTENT STYLES
 
 			header {
 				border-bottom: 4px solid white;
-				background-color: white;
-				background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1) 75%, rgba(255,0,0,0) 75%, rgba(255,0,0,0));
+				//background-color: white;
+				//background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1) 75%, rgba(255,0,0,0) 75%, rgba(255,0,0,0));
 				margin-bottom: 25px;
 				font-family: 'PT Sans Caption', sans-serif;
-				width: 104%;
+				width: 100%;
+				line-height: 18px;
 			}
 
 			footer {
@@ -350,8 +431,8 @@ POSTS & CONTENT STYLES
 			background-image: url(../images/controller.svg); 
 			background-repeat: no-repeat;
 			background-size: 89% 100%;
-			padding: 55px 90px;
-			width: 500px;
+			padding: 23px 65px;
+			//width: 320px;
 			//background-color: #232323;
 			//max-width: 500px;
 			color: #979797;
@@ -380,8 +461,9 @@ POSTS & CONTENT STYLES
 		}
 
 		/* entry content */
-		.entry-content {
+		.entry-content{
 			padding: 1.5em 1.5em 0;
+			background-color: rgba(10, 41, 41, .5);
 
 			p {
 				margin: 0 0 1.5em;

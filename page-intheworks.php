@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Custom Page Example
+ Template Name: In The Works Template
  *
  * This is your custom page template. You can create as many of these as you need.
  * Simply name is "page-whatever.php" and in add the "Template Name" title at the
@@ -26,12 +26,6 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 								<header class="article-header">
-
-									<h1 class="page-title"><?php the_title(); ?></h1>
-
-									<!-- <p class="byline vcard">
-										<?php printf( __( 'Posted <time class="updated" datetime="%1$s" itemprop="datePublished">%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
-									</p> -->
 
 
 								</header>
@@ -61,15 +55,51 @@
 										) );
 									?>
 								</section>
+							<div>
 
+							
+								<?php 
+								$args = [
+									'category_name' => 'upcoming',
+									'order' => 'ASC'
 
+								];
+
+								$loop = new WP_Query($args);
+
+								//print_r($loop);
+
+								if($loop->have_posts() ){
+									//echo '<h3>Case Studies</h3>';
+									?>
+
+									<section class="case">
+									<?php
+
+									//Loop through posts in #loop query
+									while($loop->have_posts() ) : $loop->the_post(); ?>
+										<h1> <?php the_title(); ?> </h1>
+										<?php the_post_thumbnail(); ?>
+										<p><?php the_excerpt(); ?></p>
+										<p> <a href="<?php the_permalink(); ?>">Expand</a></p>
+									</div>
+									<?php
+									endwhile;
+								} else {
+									//no posts are found
+									echo'<h3> No artwork found</h3>';
+								}
+
+								?>
+
+								</section>
 								<footer class="article-footer">
 
-                  <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
+                  <?php// the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
 
 								</footer>
 
-								<?php comments_template(); ?>
+								<?php //comments_template(); ?>
 
 							</article>
 

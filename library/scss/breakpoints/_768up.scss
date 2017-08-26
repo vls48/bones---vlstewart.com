@@ -17,7 +17,23 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 
+.post-49{
+	width: 620px;
+	margin: auto;
+}
+
 body {}
+
+#content{
+	margin-top: 3.5em;
+}
+
+.but-nav{
+	//width: auto;
+	display: flex;
+	flex-direction: row;
+}
+
 
 /*********************
 LAYOUT & GRID STYLES
@@ -135,7 +151,22 @@ NAVIGATION STYLES
 		a {}
 	}  /* end current highlighters */
 
-} /* end .nav */
+} 
+
+.nav-buttons{
+	display: flex;
+	flex-direction: row;
+
+	li{
+		padding: 0px 10px;
+		//text-align: center;
+		a{
+
+		}
+	}
+}
+
+/* end .nav */
 
 /*********************
 SIDEBARS & ASIDES
